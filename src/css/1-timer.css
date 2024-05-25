@@ -4,17 +4,15 @@
     margin-bottom: 20px;
     text-align: center;
   }
-
-  .timecontainer {
+  .field {
     text-align: center;
   }
-
 
 .label {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 150%;
+  font-size: 20px;
+  line-height: 1.5px;
   color: #2e2f42;
 }
 
@@ -47,13 +45,13 @@ button:disabled {
   padding: 8px 16px;
   width: 75px;
   height: 40px;
-  background: #cfcfcf;
+  background: #7093e3;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.04em;
-  color: #989898;
+  color: #7463e4;
 }
 
 button:hover {
@@ -72,21 +70,12 @@ button:hover {
   height: 40px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 150%;
   letter-spacing: 0.04em;
   color: #2e2f42;
   padding-left: 15px;
 }
-
-#datetime-picker:hover {
-  border-color: black;
-}
-
-#datetime-picker:active {
-  border-color: #4e75ff;
-}
-
 #datetime-picker:disabled {
   background: #7d7979;
   border-color: #2f2d2d;
@@ -97,6 +86,16 @@ button:hover {
   letter-spacing: 0.04em;
   color: #808080;
 }
+
+
+#datetime-picker:hover {
+  border-color: black;
+}
+
+#datetime-picker:active {
+  border-color: #4e75ff;
+}
+
 
 .timer {
   display: flex;

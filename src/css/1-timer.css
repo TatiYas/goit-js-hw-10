@@ -1,9 +1,9 @@
 
 
-.container {
+/*.container {
    padding-top: 30px;
    text-align: center;
-  }
+  }*/
   .wrapper {
     text-align: center;
   }
@@ -81,7 +81,7 @@ button:hover {
   padding-left: 15px;
 }
 #datetime-picker:disabled {
-  background: #8a8181;
+  background: #e9e0e0;
   border-color: #2f2d2d;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;

@@ -3,10 +3,6 @@
 
   }
 
-  .field {
-    text-align: center;
-  }
-
 .label {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
@@ -72,7 +68,7 @@ button:hover {
   font-size: 20px;
   line-height: 150%;
   letter-spacing: 0.04em;
-  color: #dadae5;
+  color: #7a7373;
   padding-left: 15px;
 }
 #datetime-picker:disabled {
@@ -83,7 +79,7 @@ button:hover {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.04em;
-  color: #e9dcdc;
+  color: #7a7373;
 }
 
 

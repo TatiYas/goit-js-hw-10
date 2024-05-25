@@ -1,6 +1,6 @@
 .container {
    padding-top: 30px;
-
+   justify-content: center;
   }
 
 .label {
@@ -97,6 +97,7 @@ button:hover {
   flex-direction: row;
   margin-top: 25px;
   text-align: center;
+  justify-content: center;
 }
 
 .timer .field {
